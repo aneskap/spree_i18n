@@ -720,13 +720,9 @@ de:
     admin:
       order:
         events:
-          admin:
-            order:
-              events:
-                resend: Erneut senden
+          resend: erneut senden
           approve: freigeben
           cancel: stornieren
-          resend: Neu senden
           resume: wiederaufnehmen
       orders:
         cart: Warenkorb
@@ -756,15 +752,12 @@ de:
       user:
         account: Konto
         addresses: Adressen
-        admin:
-          user:
-            order_num: Bestellungsnummer
-        available_store_credit: Der Benutzer hat %{amount} im Guthaben verfügbar.
+        order_num: Bestellungsnummer
         items: Artikel
         items_purchased: Gekaufte Artikel
+        available_store_credit: "Der Benutzer hat %{amount} im Guthaben verfügbar."
         order_history: Bestellhistorie
-        no_store_credit: Der Benutzer hat kein Guthaben verfügbar.
-        order_num: Bestellnummer
+        no_store_credit: Der Benutzer hat kein Guthaben verfügbar
         orders: Bestellungen
         store_credits: Guthaben im Laden
         stores: Läden
