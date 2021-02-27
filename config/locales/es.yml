@@ -1447,15 +1447,15 @@ es:
     return_items_cannot_be_associated_with_multiple_orders: Artículos retornados no pueden se asociados con múltiples ordenes
     reimbursement_mailer:
       reimbursement_email:
-        days_to_send: Días para envío
-        dear_customer: Estimado comprador
+        days_to_send: ! 'Tiene %{days} días para devolver cualquier artículo pendiente de cambio.'
+        dear_customer: Estimado comprador,
         exchange_summary: Resumen de intercambio
-        for: Para
+        for: para
         instructions: Instrucciones
         refund_summary: Resumen de reembolso
-        subject: sujeto
+        subject: Notificación de reembolso
         store_team: 'Equipo de %{store_name}'
-        total_refunded: Total de reembolso
+        total_refunded: !'Total de reembolso %{total}'
         thanks: Gracias por tu compra.
     return_number: Número de retorno
     return_quantity: Cantidad de devolución
@@ -1516,7 +1516,7 @@ es:
         shipping_method: "Método de envío: %{shipping_method}"
         subject: Notificación de Envío
         store_team: 'Equipo de %{store_name}'
-        thanks: "¡Gracias por su compra!"
+        thanks: "Gracias por su compra!"
         track_information: 'Información Seguimiento: %{tracking}'
         track_link: 'Link del tracking: %{url}'
     shipment_state: Estado del envío
